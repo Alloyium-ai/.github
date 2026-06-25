@@ -8,6 +8,13 @@ Alloyium is an agent-fabric bus system: spin up fleets of [Claude Code](https://
 
 ![Alloyium — the agent fabric](docs/alloyium-product.png)
 
+> [!NOTE]
+> Using a coding agent to install or evaluate Alloyium? Start by pointing it at the agent runbook:
+
+```text
+Read https://github.com/Alloyium-ai/alloyium/blob/main/AGENTS.md, then follow the Fresh Clone Startup workflow to bring up the full-codex stack.
+```
+
 ## Quickstart
 
 Alloyium runs **real** Claude Code and Codex agents driven by your own logged-in CLI — **no API keys**. Log in once on the host; the gateways reuse those sessions:
